@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="35dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/header"
+        android:layout_width="318dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="25dp"
+        android:ems="10"
+        android:fontFamily="sans-serif"
+        android:text="@string/polynomial"
+        android:textSize="30dp"
+        app:layout_constraintEnd_toEndOf="@+id/editRankNumber"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="87dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="125dp"
+        android:layout_marginEnd="50dp"
+        android:ems="10"
+        android:text="@string/set_rank"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editRankNumber"
+        app:layout_constraintEnd_toStartOf="@+id/editRankNumber"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editRankNumber" />
+
+    <NumberPicker
+        android:id="@+id/editRankNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="155dp"
+        android:layout_marginEnd="143dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName2"
+        app:layout_constraintTop_toBottomOf="@+id/header" />
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent">
+        <Button
+            android:id="@+id/btn_continue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="350dp"
+            android:layout_marginEnd="28dp"
+            android:text="@string/Continue"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"/>
+
+        <Button
+            android:id="@+id/viewDatabase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="24dp"
+            android:layout_marginBottom="106dp"
+            android:text="@string/view_polynomials_in_database" />
+    </RelativeLayout>
+
+</RelativeLayout>

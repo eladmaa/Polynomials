@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "372763535638",
+    "project_id": "polinomials-f93ce",
+    "storage_bucket": "polinomials-f93ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:372763535638:android:f2d09135592c74472d0837",
+        "android_client_info": {
+          "package_name": "com.example.polinomials"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "372763535638-ba61k3thqt8b6svochkt72l3a73iqqku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCc17D5ba3QcKPZ6ujXCz3yyRKDvkKgAMY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "372763535638-ba61k3thqt8b6svochkt72l3a73iqqku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

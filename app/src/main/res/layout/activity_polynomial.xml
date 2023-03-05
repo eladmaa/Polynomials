@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical" >
+
+
+
+    <TableLayout
+        android:id="@+id/PolynomialTable"
+        android:layout_width="416dp"
+        android:layout_height="329dp"
+        >
+        <TableRow
+            android:id="@+id/titleRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/coefsNameRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        </TableRow>
+        <TableRow
+            android:id="@+id/coefsDataRow"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="28dp"
+            android:text="@string/submit" />
+
+        <Button
+            android:id="@+id/btn_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="28dp"
+            android:text="@string/return_without_submit" />
+
+
+    </LinearLayout>
+    <!--</androidx.constraintlayout.widget.ConstraintLayout>-->
+</LinearLayout>
